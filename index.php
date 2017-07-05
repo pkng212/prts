@@ -541,7 +541,7 @@
                     <!--Page Title-->
                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                     <div id="page-title">
-                        <h1 class="page-header text-overflow">Collapsed Navigation</h1>
+                        <h1 class="page-header text-overflow">Home</h1>
 
                         <!--Searchbox-->
                         <div class="searchbox">
@@ -560,9 +560,9 @@
                     <!--Breadcrumb-->
                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                     <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Layouts</a></li>
-                        <li class="active">Collapsed Navigation</li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <!-- <li><a href="#">Layouts</a></li>
+                        <li class="active">Collapsed Navigation</li> -->
                     </ol>
                     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                     <!--End breadcrumb-->
@@ -579,11 +579,10 @@
                             <div class="col-lg-6 col-lg-offset-3">
                                 <div class="panel panel-trans text-center">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title">Your content here...</h3>
+                                        <h3 class="panel-title">Do. Or do not. There is no try.</h3>
                                     </div>
                                     <div class="panel-body">
-                                        <p>Start putting content on grids or panels, you can also use different combinations of grids.
-                                            <br>Please check out the dashboard and other pages.</p>
+                                        <p></p>
                                         </div>
                                     </div>
                                 </div>
@@ -909,17 +908,17 @@
                                             <li class="list-header">Navigation</li>
 
                                             <!--Menu list item-->
-                                            <li>
-                                                <a href="index.html">
-                                                    <i class="psi-home"></i>
+                                            <li class="active-link">
+                                                <a href="index.php">
+                                                    <i class="psi-home-3"></i>
                                                     <span class="menu-title">
-                                                        <strong>Dashboard</strong>
+                                                        <strong>Home</strong>
                                                     </span>
                                                 </a>
                                             </li>
 
                                             <!--Menu list item-->
-                                            <li class="active-sub">
+                                            <li>
                                                 <a href="#">
                                                     <i class="psi-data-center"></i>
                                                     <span class="menu-title">
@@ -930,8 +929,28 @@
 
                                                 <!--Submenu-->
                                                 <ul class="collapse in">
-                                                    <li class="active-link"><a href="#">Nodes</a></li>
+                                                    <li><a href="#">Nodes</a></li>
                                                 </ul>
+                                            </li>
+
+                                            <!--Menu list item-->
+                                            <li>
+                                                <a href="reportdetail.php">
+                                                    <i class="psi-file-pie"></i>
+                                                    <span class="menu-title">
+                                                        <strong>Report Detail</strong>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <!--Menu list item-->
+                                            <li>
+                                                <a href="extractfile.php">
+                                                    <i class="psi-file-csv"></i>
+                                                    <span class="menu-title">
+                                                        <strong>Extract File</strong>
+                                                    </span>
+                                                </a>
                                             </li>
                                         </ul>
 
